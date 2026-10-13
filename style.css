@@ -12,29 +12,73 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
+
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7)), rgba(0,0,0,0.7),
-    url(img/hero.jpg);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ), url("img/hero.jpg");
+
     background-size: cover;
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
 
 .row {
-    max-width: 1140;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
+
+
+.nav-bar .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+
+
+
 .hero-text-box {
     width: 1140px;
+    max-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.hero-text-box h1 {
+    color: white;
+    font-size: 240%;
+    font-weight: 300;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
 
-.bth {
+
+
+.btn {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -43,7 +87,7 @@ header {
     color: #fff;
 }
 
-.btn:hover, btn:active {
+.btn:hover, .btn:active {
     background-color: #cf5d17;
 }
 
@@ -54,7 +98,7 @@ header {
 }
 
 .btn-ghost {
-    border: 1px solid;
+    border: 1px solid #e67e22;
     color: #e67e22;
     transition: color 0.2s;
 }
@@ -63,5 +107,3 @@ header {
     border: 1px solid #cf5d17;
     color: #fff;
 }
-
-
