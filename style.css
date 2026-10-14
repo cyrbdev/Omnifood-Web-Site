@@ -5,7 +5,7 @@
 }
 
 html {
-    color: #555;
+    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -78,6 +78,8 @@ header {
 
 
 
+
+
 .btn {
     display: inline-block;
     padding: 10px 30px;
@@ -108,6 +110,44 @@ header {
     color: #fff;
 }
 
+.features {
+    padding: 80px;
+    height: 700px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display:block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+
+.long-text{
+    margin-bottom: 30px;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+h3{
+    color: black;
+    font-weight: 300;
+    font-size: 110%;
+    margin-bottom: 15px;
+
+}
+
+p {
+    color: black;
 .gallery {
     width: 100%;
 }
@@ -137,3 +177,17 @@ header {
     transform: scale(1.00);
 }
 
+.feature-box{
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 1%;
+}
+
+.icon {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
