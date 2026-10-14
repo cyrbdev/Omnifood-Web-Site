@@ -12,6 +12,8 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
+
 header {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
@@ -73,6 +75,8 @@ header {
     word-spacing: 4px;
     text-transform: uppercase;
 }
+
+
 
 
 
@@ -144,6 +148,33 @@ h3{
 
 p {
     color: black;
+.gallery {
+    width: 100%;
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.meal_photo {
+    overflow: hidden;
+    background-color: #000;
+    margin: 0;
+    width: 100%;
+}
+
+.meal_photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal_photo img:hover {
+    opacity: 1;
+    transform: scale(1.00);
 }
 
 .feature-box{
