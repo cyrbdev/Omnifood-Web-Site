@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ), url("img/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+.nav-bar .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+
+
+
+.hero-text-box {
+    width: 1140px;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+    color: white;
+    font-size: 240%;
+    font-weight: 300;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.btn:hover, .btn:active {
+    background-color: #cf5d17;
+}
+
+.btn-full {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    transition: color 0.2s;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid #cf5d17;
+    color: #fff;
+}
+
+.features {
+    padding: 80px;
+    height: 700px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display:block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+
+.long-text{
+    margin-bottom: 30px;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+h3{
+    color: black;
+    font-weight: 300;
+    font-size: 110%;
+    margin-bottom: 15px;
+
+}
+
+p {
+    color: black;
+}
+
+.feature-box{
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 1%;
+}
+
+.icon {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
