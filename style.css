@@ -107,3 +107,33 @@ header {
     border: 1px solid #cf5d17;
     color: #fff;
 }
+
+.gallery {
+    width: 100%;
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.meal_photo {
+    overflow: hidden;
+    background-color: #000;
+    margin: 0;
+    width: 100%;
+}
+
+.meal_photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal_photo img:hover {
+    opacity: 1;
+    transform: scale(1.00);
+}
+
