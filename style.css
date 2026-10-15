@@ -31,8 +31,6 @@ header {
     margin: 0 auto;
 }
 
-
-
 .nav-bar .row {
     display: flex;
     justify-content: space-between;
@@ -40,7 +38,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 125px;
     width: auto;
 }
 
@@ -56,8 +54,6 @@ header {
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
 }
-
-
 
 .hero-text-box {
     width: 1140px;
@@ -75,10 +71,6 @@ header {
     word-spacing: 4px;
     text-transform: uppercase;
 }
-
-
-
-
 
 .btn {
     display: inline-block;
@@ -111,7 +103,8 @@ header {
 }
 
 .features {
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     height: 700px;
 }
 
