@@ -192,3 +192,66 @@ p {
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
 }
+
+.testimonial {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 70px 0;
+    color: white;
+}
+
+.testimonial h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial_container {
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+.text_testimonial {
+    flex: 1;
+    display: flex;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    display: block;
+    margin-top: 25px;
+    font-size: 90%;
+    margin-top: auto;
+    padding-top: 25px;
+}
+
+cite img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
