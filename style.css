@@ -31,8 +31,6 @@ header {
     margin: 0 auto;
 }
 
-
-
 .nav-bar .row {
     display: flex;
     justify-content: space-between;
@@ -40,7 +38,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 125px;
     width: auto;
 }
 
@@ -56,8 +54,6 @@ header {
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
 }
-
-
 
 .hero-text-box {
     width: 1140px;
@@ -75,10 +71,6 @@ header {
     word-spacing: 4px;
     text-transform: uppercase;
 }
-
-
-
-
 
 .btn {
     display: inline-block;
@@ -111,7 +103,8 @@ header {
 }
 
 .features {
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     height: 700px;
 }
 
@@ -148,6 +141,7 @@ h3{
 
 p {
     color: black;
+}
 .gallery {
     width: 100%;
 }
@@ -191,3 +185,51 @@ p {
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
 }
+
+.HIW {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 715px;
+}
+
+.steps-box {
+    display: block;
+    width: 49.2%;
+    justify-content: flex-end;
+    float: left;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
