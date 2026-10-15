@@ -248,3 +248,51 @@ cite img {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.HIW {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 715px;
+}
+
+.steps-box {
+    display: block;
+    width: 49.2%;
+    justify-content: flex-end;
+    float: left;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
