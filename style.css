@@ -27,6 +27,7 @@ header {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    min-height: min-content;
 }
 
 .nav-bar .row {
@@ -34,6 +35,8 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .logo {
     height: 125px;
@@ -332,6 +335,85 @@ cite img {
     line-height: 120%;
     vertical-align: middle;
     margin-top: -4px;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    min-height: 150px;
+    padding: 20px 0;
+}
+
+.row p {
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+.f-box {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: white;
+}
+
+.social-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0 0 50px 0;
+    float: right;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.row:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-box {
+    width: auto;
+}
+
+.footer-nav,
+.social-links {
+    float: none;
 }
 
 .prices_section {
