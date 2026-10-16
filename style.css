@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +7,17 @@
 
 html {
     color: white;
-    font-family: 'Lato', 'Arial',sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
-
-
 
 header {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     ), url("img/hero.jpg");
-
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -81,7 +79,8 @@ header {
     color: #fff;
 }
 
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
     background-color: #cf5d17;
 }
 
@@ -97,7 +96,8 @@ header {
     transition: color 0.2s;
 }
 
-.btn-ghost:hover, .btn-ghost:active {
+.btn-ghost:hover,
+.btn-ghost:active {
     border: 1px solid #cf5d17;
     color: #fff;
 }
@@ -115,40 +115,39 @@ h2 {
 }
 
 h2:after {
-    display:block;
+    display: block;
     height: 2px;
     width: 100px;
     background-color: #e67e22;
     content: " ";
-    margin: auto;
-    margin-top: 30px;
+    margin: 30px auto 0;
 }
 
-.long-text{
+.long-text {
     margin-bottom: 30px;
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
 }
 
-h3{
+h3 {
     color: black;
     font-weight: 300;
     font-size: 110%;
     margin-bottom: 15px;
-
 }
 
 p {
     color: black;
 }
+
 .gallery {
     width: 100%;
 }
 
 .showcase {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .meal_photo {
@@ -158,7 +157,7 @@ p {
     width: 100%;
 }
 
-.meal_photo img{
+.meal_photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -168,10 +167,10 @@ p {
 
 .meal_photo img:hover {
     opacity: 1;
-    transform: scale(1.00);
+    transform: scale(1);
 }
 
-.feature-box{
+.feature-box {
     display: block;
     float: left;
     width: 25%;
@@ -187,7 +186,10 @@ p {
 }
 
 .testimonial {
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ), url(img/back-customers.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -235,7 +237,6 @@ blockquote::before {
 
 cite {
     display: block;
-    margin-top: 25px;
     font-size: 90%;
     margin-top: auto;
     padding-top: 25px;
@@ -295,12 +296,50 @@ cite img {
     margin-right: 10px;
 }
 
+.locations {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 600px;
+}
+
+.locbox {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    width: 23.4%;
+}
+
+.locbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.city-feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
 .prices_section {
     background-color: #f4f4f4;
     padding: 80px 0;
 }
 
-.prices_container{
+.prices_container {
     display: flex;
     justify-content: space-around;
     gap: 30px;
@@ -328,7 +367,7 @@ cite img {
     padding: 10px 0;
 }
 
-.price_features{
+.price_features {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     margin: 20px 0;
@@ -337,15 +376,6 @@ cite img {
 
 .price_features p {
     margin-bottom: 10px;
-}
-
-.price_box .btn {
-    display: block;
-    width: fit-content;
-    margin: 20px auto 0;
-    padding: 10px 25px;
-    background-color: #e67e22;
-    color: white;
 }
 
 .price_features ion-icon {
@@ -374,40 +404,4 @@ cite img {
 
 .p_meal {
     margin-top: 12px;
-.locations{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    height: 600px;
-}
-
-.locbox{
-    display: block;
-    float: left;
-    margin: 1% 0 1% 1.6%;
-    width: 23.4%;
-}
-
-.locbox img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.city-feature{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 5px;
-}
-
-.icon-small {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    color: #e67e22;
-    font-size: 120%;
-    margin-right: 10px;
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -4px;
 }
