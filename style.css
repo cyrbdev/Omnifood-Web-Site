@@ -279,7 +279,6 @@ cite img {
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
-    display: inline-block;
     border-radius: 50%;
     height: 55px;
     width: 55px;
@@ -296,6 +295,85 @@ cite img {
     margin-right: 10px;
 }
 
+.prices_section {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.prices_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.price_box {
+    background-color: white;
+    width: 30%;
+    border-radius: 5%;
+    padding: 20px;
+    box-shadow: 0 2px 2px #ddd;
+}
+
+.price {
+    font-size: 300%;
+    color: #e67e22;
+    font-weight: 300;
+}
+
+.price span {
+    font-size: 30%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.price_features{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.price_features p {
+    margin-bottom: 10px;
+}
+
+.price_box .btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background-color: #e67e22;
+    color: white;
+}
+
+.price_features ion-icon {
+    color: #e67e22;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.price_box .btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background-color: #e67e22;
+    color: white;
+    border: 1px solid #e67e22;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.price_box .btn:hover {
+    background-color: #cf6d17;
+    color: white;
+}
+
+.p_meal {
+    margin-top: 12px;
 .locations{
     padding-top: 80px;
     padding-bottom: 80px;
