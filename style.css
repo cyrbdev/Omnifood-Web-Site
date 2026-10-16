@@ -406,10 +406,20 @@ cite img {
     margin-top: 12px;
 }
 
+footer {
+    background-color: rgb(41, 41, 41);
+    min-height: 150px;
+    padding: 20px 0;
+}
+
+footer .row p {
+    text-align: center;
+    color: white;
+    clear: both;
+}
 
 .f-box {
-    width: 100%;
-    float: left;
+    width: auto;
     display: flex;
     justify-content: center;
 }
@@ -436,13 +446,12 @@ cite img {
     color: white;
 }
 
-.social-links{
+.social-links {
     display: flex;
     list-style: none;
     gap: 30px;
     padding: 0;
     margin: 0 0 50px 0;
-    float: right;
 }
 
 .social-links li {
@@ -459,17 +468,8 @@ cite img {
     color: white;
 }
 
-.row:first-child {
+footer .row:first-child {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.f-box {
-    width: auto;
-}
-
-.footer-nav,
-.social-links {
-    float: none;
 }
