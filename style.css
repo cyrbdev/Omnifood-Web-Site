@@ -353,3 +353,25 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+.price_box .btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    background-color: #e67e22;
+    color: white;
+    border: 1px solid #e67e22;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.price_box .btn:hover {
+    background-color: #cf6d17;
+    color: white;
+}
+
+.p_meal {
+    margin-top: 12px;
+}
